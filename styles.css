@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper-main {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  height: 7vh;
+  width: 100%;
+  background: #262935;
+}
+
+#sway-logo {
+  height: 3vh;
+  margin: 1vh 7vw;
+}
+
+.right-nav {
+  display: fixed;
+  margin-top: -4vh;
+  margin-left: 65%;
+}
+
+.right-nav a {
+  margin-right: 5%;
+  color: #babcc0;
+  text-decoration: none;
+}
+
+header button {
+  background: #7aca80;
+  border: none;
+  border-radius: 7px;
+  color: #eee;
+  height: 3vh;
+  width: 9vw;
+}
